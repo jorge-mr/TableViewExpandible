@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>In-App Puraches</string>
+		<key>short</key>
+		<string>Lorem ipsum dolor sit amet amet adipisicing elit, consectetur adipisicing elit</string>
+		<key>long</key>
+		<string>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, tempor incididunt tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, tempor incididunt </string>
+		<key>image</key>
+		<string>inapppuraches</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>User Notifications</string>
+		<key>short</key>
+		<string>Lorem ipsum dolor sit amet amet adipisicing elit, consectetur adipisicing elit</string>
+		<key>long</key>
+		<string>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, tempor incididunt tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, tempor incididunt </string>
+		<key>image</key>
+		<string>notifications</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>AutoLayout</string>
+		<key>short</key>
+		<string>Lorem ipsum dolor sit amet amet adipisicing elit, consectetur adipisicing elit</string>
+		<key>long</key>
+		<string>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, tempor incididunt tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, tempor incididunt </string>
+		<key>image</key>
+		<string>autolayout</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>First Iphone App</string>
+		<key>short</key>
+		<string>Lorem ipsum dolor sit amet amet adipisicing elit, consectetur adipisicing elit</string>
+		<key>long</key>
+		<string>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, tempor incididunt tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, tempor incididunt </string>
+		<key>image</key>
+		<string>firstapp</string>
+	</dict>
+</array>
+</plist>

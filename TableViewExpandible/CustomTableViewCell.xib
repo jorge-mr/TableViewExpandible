@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="CustomTableViewCell" customModule="TableViewExpandible" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="400"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="399.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="firstapp" translatesAutoresizingMaskIntoConstraints="NO" id="kYy-Cj-Lsd">
+                        <rect key="frame" x="8" y="8" width="137" height="97"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="97" id="FjA-b7-SGo"/>
+                            <constraint firstAttribute="width" constant="137" id="GV8-Sk-Swc"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In-App Puraches" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="LMY-CM-ZUg">
+                        <rect key="frame" x="153" y="8" width="159" height="53"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet amet adipisicing elit, consectetur adipisicing elit" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYU-bY-1nm">
+                        <rect key="frame" x="8" y="113" width="304" height="65"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="65" id="LOx-NE-5w6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ver más" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8I-ft-pOj">
+                        <rect key="frame" x="263" y="178" width="49" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.33519553862322976" green="0.64451599414775884" blue="0.98470920319999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P0W-cd-wY3">
+                        <rect key="frame" x="8" y="206.5" width="304" height="122"/>
+                        <string key="text">tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, tempor incididunt  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, tempor incididunt </string>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="P0W-cd-wY3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="2Sy-Ni-2VM"/>
+                    <constraint firstItem="P0W-cd-wY3" firstAttribute="top" secondItem="IYU-bY-1nm" secondAttribute="bottom" constant="28.5" id="3Pp-5i-1hm"/>
+                    <constraint firstItem="P0W-cd-wY3" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="8lf-wH-0x6"/>
+                    <constraint firstItem="IYU-bY-1nm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="9cs-kx-DN4"/>
+                    <constraint firstItem="kYy-Cj-Lsd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="HOf-QO-gPy"/>
+                    <constraint firstItem="m8I-ft-pOj" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="c10-Fd-7tP"/>
+                    <constraint firstItem="IYU-bY-1nm" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="ckm-1E-b4h"/>
+                    <constraint firstItem="LMY-CM-ZUg" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="eGV-BK-lmb"/>
+                    <constraint firstItem="LMY-CM-ZUg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="koz-O8-BLv"/>
+                    <constraint firstItem="kYy-Cj-Lsd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="mCi-JU-045"/>
+                    <constraint firstItem="IYU-bY-1nm" firstAttribute="top" secondItem="kYy-Cj-Lsd" secondAttribute="bottom" constant="8" id="oQN-Xz-mAo"/>
+                    <constraint firstItem="m8I-ft-pOj" firstAttribute="top" secondItem="IYU-bY-1nm" secondAttribute="bottom" id="vgz-rs-CbI"/>
+                    <constraint firstItem="LMY-CM-ZUg" firstAttribute="leading" secondItem="kYy-Cj-Lsd" secondAttribute="trailing" constant="8" id="zCQ-sC-Ioz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="longLabel" destination="P0W-cd-wY3" id="DUF-8b-qZi"/>
+                <outlet property="shortLabel" destination="IYU-bY-1nm" id="TcX-4i-kzc"/>
+                <outlet property="thumbImage" destination="kYy-Cj-Lsd" id="BCj-X5-KdL"/>
+                <outlet property="titleLabel" destination="LMY-CM-ZUg" id="1cX-HK-mah"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="firstapp" width="3248" height="2026"/>
+    </resources>
+</document>
